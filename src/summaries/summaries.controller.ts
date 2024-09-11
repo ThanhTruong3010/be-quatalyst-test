@@ -3,10 +3,10 @@ import { SummariesService } from './summaries.service';
 
 @Controller('summary')
 export class SummariesController {
-  constructor(private readonly cardsService: SummariesService) {}
+  constructor(private readonly summariesService: SummariesService) {}
 
   @Get()
   findAll() {
-    return this.cardsService.findAll();
+    return this.summariesService.findAll();
   }
 }

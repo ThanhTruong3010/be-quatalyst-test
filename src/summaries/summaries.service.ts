@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { SUMMARY } from './mocks/cards';
+import { SUMMARY } from './mocks/summaries';
 
 @Injectable()
 export class SummariesService {
